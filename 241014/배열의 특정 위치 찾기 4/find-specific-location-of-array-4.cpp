@@ -11,12 +11,15 @@ int main() {
 
         if (input == 0) {
             cout << count << " " << sum;
+            return 0;
         }
         else if (input % 2 == 0) {
             count++;
             sum += input;
         }
     }
+    
+    cout << count << " " << sum;
 
     return 0;
 }
