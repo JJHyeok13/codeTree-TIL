@@ -15,7 +15,7 @@ int main() {
         sum += input;
     }
 
-    double average = round((sum / 4) * 10) / 10;
+    double average = round((sum / n) * 10) / 10;
 
     cout << average << endl;
 
