@@ -17,7 +17,7 @@ int main() {
 
     double average = round((sum / n) * 10) / 10;
 
-    cout << average << endl;
+    cout << fixed << setprecision(1) << average << endl;
 
     if (average >= 4.0) {
         cout << "Perfect";
