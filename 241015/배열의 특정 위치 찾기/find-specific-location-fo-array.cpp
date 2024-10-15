@@ -4,9 +4,9 @@
 using namespace std;
 
 int main() {
-    int input;
+    double input;
     int sum1 = 0;
-    int sum2 = 0;
+    double sum2 = 0;
 
     for (int i = 0; i < 10; i++) {
         cin >> input;
@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    cout << sum1 << " " << fixed << setprecision(1) << round((sum2 / 3) * 10 / 10);
+    cout << sum1 << " " << fixed << setprecision(1) << round((sum2 / 3) * 10) / 10;
 
     return 0;
 }
