@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    cout << sum1 << " " << fixed << setprecision(1) << round((sum2 / 3) * 10) / 10;
+    cout << sum1 << " " << fixed << setprecision(1) << round((sum2 / 3) * 10 / 10);
 
     return 0;
 }
