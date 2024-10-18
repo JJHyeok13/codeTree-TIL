@@ -10,7 +10,7 @@ int main() {
         cin >> c >> input;
 
         if (c == 'Y') {
-            if (input > 37) {
+            if (input >= 37) {
                 arr[0]++;
             }
             else {
@@ -18,7 +18,7 @@ int main() {
             }
         }
         else {
-            if (input > 37) {
+            if (input >= 37) {
                 arr[1]++;
             }
             else {
