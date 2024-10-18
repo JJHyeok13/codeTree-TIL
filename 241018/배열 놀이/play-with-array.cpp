@@ -27,12 +27,13 @@ int main() {
 
             for (int j = 0; j < n; j++) {
                 if (arr[j] == input1) {
-                    q2_index = j;
+                    q2_index = j + 1;
                     break;
                 }
             }
 
-            cout << q2_index + 1 << endl;
+            cout << q2_index << endl;
+            q2_index = 0;
         }
         else {
             cin >> input1 >> input2;
