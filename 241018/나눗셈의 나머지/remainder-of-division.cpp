@@ -12,7 +12,7 @@ int main() {
         arr[a % b]++;
         a /= b;
 
-        if (a == 0) {
+        if (a <= 1) {
             break;
         }
     }
