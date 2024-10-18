@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int min = 0, max = 0;
+    int min = 999, max = -999;
     int input;
 
     while(1) {
