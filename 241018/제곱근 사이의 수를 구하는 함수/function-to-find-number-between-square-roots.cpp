@@ -9,10 +9,10 @@ int main() {
     cin >> a >> b;
 
     if (a > b) {
-        answer = sqrt(a) - sqrt(b);
+        answer = floor(sqrt(a)) - floor(sqrt(b));
     }
     else {
-        answer = sqrt(b) - sqrt(a);
+        answer = floor(sqrt(b)) - floor(sqrt(a));
     }
 
     cout << answer;
