@@ -10,13 +10,13 @@ int main() {
     int value = n;
 
     while(1) {
-        cout << value << " ";
-
-        if (value % 10 == 0) {
+        if (value > 200) {
             break;
         }
 
-        if (value > 200) {
+        cout << value << " ";
+
+        if (value % 10 == 0) {
             break;
         }
 
