@@ -4,10 +4,16 @@ using namespace std;
 
 int main() {
     double a, b;
+    int answer = 0;
 
     cin >> a >> b;
 
-    int answer = abs(sqrt(a) - sqrt(b));
+    if (a > b) {
+        answer = sqrt(a) - sqrt(b);
+    }
+    else {
+        answer = sqrt(b) - sqrt(a);
+    }
 
     cout << answer;
 
