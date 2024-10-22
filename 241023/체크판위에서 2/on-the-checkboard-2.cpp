@@ -18,9 +18,9 @@ int main() {
         for (int j = 1; j <= C - 1; j++) {
             for (int l = i + 1; l <= R - 2; l++) {
                 for (int k = j + 1; k <= C - 2; k++) {
-                    if (arr[0][0] != arr[i][j] &&
+                    if (arr[1][1] != arr[i][j] &&
                         arr[i][j] != arr[l][k] &&
-                        arr[l][k] != arr[15][15]) {
+                        arr[l][k] != arr[R][C]) {
                         answer++;
                     }
                 }
