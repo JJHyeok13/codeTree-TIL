@@ -20,7 +20,7 @@ int main() {
                 for (int k = j + 1; k <= C - 2; k++) {
                     if (arr[0][0] != arr[i][j] &&
                         arr[i][j] != arr[l][k] &&
-                        arr[l][k] != arr[16][16]) {
+                        arr[l][k] != arr[15][15]) {
                         answer++;
                     }
                 }
